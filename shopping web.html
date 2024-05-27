@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- width=device-width：这表示网页的宽度应该与设备的宽度相同，即网页会根据设备屏幕的宽度自动调整。*/
+		/*initial-scale=1.0：这指定了网页初始加载时的缩放级别。1.0表示不进行缩放，即以100%的尺寸显示。 -->
+		<title>登录界面</title>
+	</head>
+	<body>
+		<div class="login-container">
+			<h2>登录</h2>
+			<div class="form-input">
+				<label for="username">用户名：</label>
+				<input type="text" id="username" name="username" required>
+			</div>
+			<!-- required属性是HTML5引入的，它提供了一种简单的方式来确保表单的必填字段不被遗漏，从而帮助提高数据的完整性和准确性。 -->
+			<div class="form-input">
+				<label for="password">密码：</label>
+				<input type="password" id="password" name="password" required>
+			</div>
+			<div class="form-button">
+				<a href="main.html">
+					<button type="submit">登录</button>
+				</a>
+				<a href="registration page.html">
+				<button type="submit">注册</button>
+				</a>
+			</div>
+			<div class="form-link">
+				<a href="#">忘记密码？</a>
+			</div>
+		</div>
+	</body>
+</html>

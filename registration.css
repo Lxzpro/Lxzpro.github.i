@@ -1,0 +1,50 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #ffffff;
+}
+body 
+{
+    background-image:url('summer.png');
+    background-repeat:no-repeat;
+	background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+.register {
+	width: 400px;
+	margin: 20% 70% auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 12px;
+}
+.register h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.form-input input {
+	width: 40%;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.from-input button {
+	border-radius: 10px;
+}
+
+.form-button {
+	text-align: center;
+}
+
+.form-button button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
